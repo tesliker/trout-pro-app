@@ -9,12 +9,6 @@
     $scope.location.latitude = "44.444";
     $scope.location.longitude = "-73.6311421";
     $scope.location.miles = "1000";
-    $http.get('http://www.troutprostore.com/streams-services').
-    
-    success(function(data, status, headers, config){
-      $scope.nodes = data.nodes
-      console.log('YES!');
-	  });
     
     $scope.location.submitForm = function() {
       function getLocation() {
