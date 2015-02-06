@@ -452,3 +452,7 @@ footer .footer-below {
 .stream-list h1 {
   cursor: pointer;
 }
+
+.container {
+  overflow-x: hidden !important;
+}
