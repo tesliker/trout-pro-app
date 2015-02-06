@@ -456,3 +456,8 @@ footer .footer-below {
 .container {
   overflow-x: hidden !important;
 }
+
+html {
+  min-height: 100%;
+  background: none repeat scroll 0 0 #18bc9c;
+}
